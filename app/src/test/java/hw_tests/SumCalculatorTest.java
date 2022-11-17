@@ -10,7 +10,6 @@ public class SumCalculatorTest {
     public void beforeEach(){
         sumCalculator = new SumCalculator();
     }
-
     @Test
     public void testSumForOne(){
         Assertions.assertEquals(1, sumCalculator.sum(1));
